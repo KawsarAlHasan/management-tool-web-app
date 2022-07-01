@@ -6,7 +6,6 @@ const Navbar = (props) => {
     const menuItems = <>
         <li><Link to='/calendar'>Calendar</Link></li>
         <li><Link to='/completedTasks'>Completed Tasks</Link></li>
-        <li><Link to='/toDo'>To-Do</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/login'>Login</Link></li>
     </>
@@ -23,7 +22,7 @@ const Navbar = (props) => {
                             {menuItems}
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl" href='/'>EndGame</a>
+                    <Link class="btn btn-ghost normal-case text-xl" to='/'>TODO</Link>
                 </div>
                 <div class="navbar-center hidden md:flex">
                     <ul class="menu menu-horizontal p-0">
