@@ -6,7 +6,7 @@ const AddTodo = (props) => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        const url = `http://localhost:5000/addTodo`;
+        const url = `https://flannel-toonie-58250.herokuapp.com/addTodo`;
         fetch(url, {
             method: 'POST',
             headers: {
