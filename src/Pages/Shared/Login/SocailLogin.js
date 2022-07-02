@@ -33,12 +33,12 @@ const SocialLogin = (props) => {
 
     return (
         <div>
-            <div class="flex flex-col w-full border-opacity-50">
-                <div class="grid h-20 card bg-base-300 rounded-box place-items-center">content</div>
-                <div class="divider">OR</div>
+            <div className="flex flex-col w-full border-opacity-50">
+                <div className="grid h-20 card bg-base-300 rounded-box place-items-center">content</div>
+                <div className="divider">OR</div>
                 {erroElement}
-                <div class="grid h-20 card rounded-box place-items-center">
-                    <button onClick={() => signInWithGoogle()} class="btn btn-info">
+                <div className="grid h-20 card rounded-box place-items-center">
+                    <button onClick={() => signInWithGoogle()} className="btn btn-info">
                         <img style={{ width: '50px' }} className='img-fluid px-2' src={googleImg} alt="" />
                         Google Sign In
                     </button>

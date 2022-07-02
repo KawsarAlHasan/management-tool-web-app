@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+_redirects
+
 # production
 /build
 

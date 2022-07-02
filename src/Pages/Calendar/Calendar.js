@@ -7,16 +7,16 @@ const Calendar = (props) => {
     const [selected, setSelected] = useState(new Date());
     return (
         <div>
-            <div class="hero min-h-screen bg-base-200">
-                <div class="hero-content flex-col md:flex-row">
+            <div className="hero min-h-screen bg-base-200">
+                <div className="hero-content flex-col md:flex-row">
                     <DayPicker
                         mode="single"
                         selected={selected}
                         onSelect={setSelected}
                     />
                     <div>
-                        <div class="overflow-x-auto">
-                            <table class="table table-zebra w-full">
+                        <div className="overflow-x-auto">
+                            <table className="table table-zebra w-full">
 
                                 <thead>
                                     <tr>
